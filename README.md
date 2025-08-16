@@ -65,3 +65,12 @@ PhysiCalc-RAG/
 │   ├── settings.py
 │   └── utils_citation.py
 └── chromadb_data/          # Persistent ChromaDB storage
+
+| Component           | Technology                                                  |
+| ------------------- | ----------------------------------------------------------- |
+| Embeddings          | Hugging Face `SentenceTransformers` (all-MiniLM-L6-v2)      |
+| Vector Database     | ChromaDB                                                    |
+| Generation Model    | `google/flan-t5-small` (fallback: extractive summarization) |
+| UI                  | Streamlit                                                   |
+| Equation Validation | SymPy                                                       |
+
