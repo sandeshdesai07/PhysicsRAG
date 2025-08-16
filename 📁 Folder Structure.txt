@@ -1,7 +1,6 @@
 physic-inf-rag/
 ├── .env.example
 ├── app.py
-├── full rag-llm code.txt
 ├── README.md
 ├── requirements.txt
 ├── src/
