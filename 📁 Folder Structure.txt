@@ -1,24 +1,27 @@
-physicalc_rag/
-│
+physic-inf-rag/
+├── .env.example
+├── app.py
 ├── README.md
 ├── requirements.txt
-├── .env.example
-│
 ├── src/
 │   ├── __init__.py
-│   │
-│   ├── ingest/
-│   │   ├── __init__.py
-│   │   ├── fetch_arxiv.py
-│   │   ├── normalize.py
-│   │   ├── chunk.py
-│   │
-│   ├── index/
-│   │   ├── __init__.py
-│   │   ├── build_index.py
-│   │
 │   ├── demo/
 │   │   ├── __init__.py
-│   │   ├── quick_query.py
-│   │
-│   └── utils.py
+│   │   └── quick_query.py
+│   ├── ingest/
+│   │   ├── __init__.py
+│   │   ├── arxiv_data.csv
+│   │   ├── data_chunks.csv
+│   │   ├── fetch_arxiv.py
+│   │   ├── normalize.py
+│   │   └── chunk.py
+│   ├── generator/
+│   │   ├── __init__.py
+│   │   └── generate.py
+│   ├── index/
+│   │   ├── __init__.py
+│   │   └── build_index.py
+│   ├── settings.py
+│   └── utils_citation.py
+└── chromadb_data/
+    └── ... (ChromaDB files)
