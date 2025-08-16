@@ -1,4 +1,4 @@
-physic-inf-rag/
+PhysicsRAG/
 ├── .env.example
 ├── app.py
 ├── README.md
