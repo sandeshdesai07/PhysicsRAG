@@ -14,7 +14,6 @@
 - 🔹 **Research-Backed Answers** with inline citations ([1], [2])
 - 🔹 **Context-Preserving Chunking** for technical documents
 - 🔹 **Intuitive Streamlit UI** for seamless user experience
-- 🔹 **Technical Accuracy Validation**
 
 ---
 
