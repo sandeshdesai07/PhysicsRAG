@@ -1,0 +1,6 @@
+chromadb_data/
+nltk_data/
+*.pdf
+temp_*.pdf
+__pycache__/
+.env
