@@ -1,0 +1,24 @@
+physicalc_rag/
+│
+├── README.md
+├── requirements.txt
+├── .env.example
+│
+├── src/
+│   ├── __init__.py
+│   │
+│   ├── ingest/
+│   │   ├── __init__.py
+│   │   ├── fetch_arxiv.py
+│   │   ├── normalize.py
+│   │   ├── chunk.py
+│   │
+│   ├── index/
+│   │   ├── __init__.py
+│   │   ├── build_index.py
+│   │
+│   ├── demo/
+│   │   ├── __init__.py
+│   │   ├── quick_query.py
+│   │
+│   └── utils.py

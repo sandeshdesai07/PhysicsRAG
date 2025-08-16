@@ -1,0 +1,16 @@
+pydantic<2.0
+streamlit
+arxiv
+python-dotenv
+pandas
+numpy
+sentence-transformers
+chromadb==0.3.22
+sympy
+nltk
+transformers
+torch
+pymupdf 
+requests
+typing
+PyMuPDF
