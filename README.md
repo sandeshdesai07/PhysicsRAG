@@ -20,7 +20,7 @@
 
 ## 🎬 Live Demo
 
-[🔗 Streamlit Cloud Demo](Insert_Streamlit_Cloud_Link_Here)
+[[🔗 Streamlit Cloud Demo](Insert_Streamlit_Cloud_Link_Here)](https://physicsrag-yud3dkfvgmkcpyz4bnoqrc.streamlit.app/)
 
 ![PhysiCalc-RAG Demo](assets/demo.gif)
 
