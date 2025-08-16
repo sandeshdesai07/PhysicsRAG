@@ -30,7 +30,7 @@
 
 | Step | Action | Command |
 |------|--------|---------|
-| 1️⃣ | Clone Repo | `git clone https://github.com/your-username/your-repo-name.git` |
+| 1️⃣ | Clone Repo | `git clone https://github.com/gh repo clone sandeshdesai07/PhysicsRAG.git` |
 | 2️⃣ | Install Dependencies | `pip install -r requirements.txt` |
 | 3️⃣ | Run App | `streamlit run app.py` |
 
