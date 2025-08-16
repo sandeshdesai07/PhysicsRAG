@@ -41,7 +41,7 @@
 ## 🗂️ Folder Structure
 
 ```text
-PhysiCalc-RAG/
+PhysicsRAG/
 ├── .env.example            # Example environment variables
 ├── app.py                  # Main Streamlit app
 ├── README.md
