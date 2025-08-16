@@ -50,7 +50,7 @@ def create_or_get_collection():
     try:
         # The main logic to check if the data has already been processed and indexed.
         if not os.path.exists(settings.CHUNK_OUTPUT_PATH):
-            st.info("No chunked data found — running ingestion pipeline (fetch → normalize → chunk → index).")
+            #st.info("No chunked data found — running ingestion pipeline (fetch → normalize → chunk → index).")
 
             # 1) Fetch (will write settings.RAW_DATA_PATH)
             st.write("1️⃣ Fetching papers from arXiv...")
@@ -164,4 +164,4 @@ if st.button("Generate Answer"):
 
 st.markdown("---")
 # Informational footer about the application's backend flow.
-st.info("Backend: arXiv → normalize → chunk → ChromaDB → LLM (RAG).")
+#st.info("Backend: arXiv → normalize → chunk → ChromaDB → LLM (RAG).")
